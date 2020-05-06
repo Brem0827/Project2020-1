@@ -1,6 +1,6 @@
 /*
-    *File Name: index.html v0.8.3
-    *Update : 2020.05.05
+    *File Name: index.html v0.9.0
+    *Update : 2020.05.06
     *Author: LeehyunJong
 */
 /*
@@ -233,4 +233,52 @@ caption{
 .item11 {
     grid-column: 5;
     grid-row: 10 / span 2;
+}
+
+/* header full-bg */
+.full-bg{
+    background: url(./images/귀여운_바탕화면_고양이_배경화면_1600x1200_124.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: table;
+    width: 100%;
+}
+
+.container{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.header-title{
+    display: inline-block;
+    width: 50%;
+    height: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background-color: rgb(159,185,255, .5);
+    color:#fff;
+    transition: all 0.5s ease-out;
+}
+
+.header-sub-title{
+    padding-top: 20px;
+    color:black;
+    font-size: 20px;
+}
+
+div{
+    display: block;
+}
+
+html{
+    margin:0;
+    padding:0;
+    font-size:10px;
+    box-sizing: border-box;
+
+}
+
+body{
+    line-height: 1.5;
 }
