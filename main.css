@@ -66,6 +66,10 @@ ul li ul{
 ul li:hover ul.dropdown{
     display: block;
 }
+
+a:hover{
+    color:violet;
+}
 /* logo */
 .logo{
     color:rgb(159,185,255);
