@@ -1,5 +1,5 @@
 /*
-    *File Name: index.html v0.10.0
+    *File Name: index.html v0.10.2
     *Update : 2020.05.12
     *Author: LeehyunJong
 */
@@ -308,4 +308,11 @@ html{
 
 body{
     line-height: 1.5;
+}
+/* footer */
+.footer-bg{
+    height:50px;
+    padding:15px;
+    text-align:center;
+    background-color:rgb(230,129,65);
 }
