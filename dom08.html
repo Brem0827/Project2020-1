@@ -1,0 +1,38 @@
+<!--
+    *File Name: dom8.html v0.0.0
+    *Update : 2020.05.26
+    *Author: LeehyunJong
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이현종의 DOM 페이지</title>
+
+    <script>
+        // 이벤트를 연결
+        window.onload = function(){ // html문서를 전부 읽은 후에 실행
+            // 문서 객체를 선택
+            var clock = document.getElementById('clock');
+            // 1초마다 실행
+            setInterval(function(){
+                var now = new Date();
+                clock.innerHTML = now.toString();
+            }, 1000);
+            function buttonClick(){
+                alert('클릭되었습니다.');
+            };
+            document.getElementById('button').onclick = function(){
+                this.textContent = this.textContent + '★';
+            };
+        };
+    </script>
+
+</head>
+<body>
+    <h1 id="clock"></h1>
+    <button onclick="buttonClick()">button</button>
+    <button id="button">button2</button>
+</body>
+</html>
