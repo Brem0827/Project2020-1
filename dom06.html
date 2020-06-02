@@ -1,0 +1,31 @@
+<!--
+    *File Name: dom6.html v0.0.0
+    *Update : 2020.05.26
+    *Author: LeehyunJong
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이현종의 DOM 페이지</title>
+
+    <script>
+        // 이벤트를 연결
+        window.onload = function(){ // html문서를 전부 읽은 후에 실행
+            
+
+          var image = document.getElementById('image');
+          image.src='http://placehold.it/300x200';
+          image.width =300;
+          image.height =200;
+          image.alt = "placeholder 이미지";
+          
+        };
+    </script>
+
+</head>
+<body>
+    <img id="image">
+</body>
+</html>
