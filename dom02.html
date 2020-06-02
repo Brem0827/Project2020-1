@@ -1,0 +1,26 @@
+<!--
+    *File Name: dom2.html v0.0.0
+    *Update : 2020.05.26
+    *Author: LeehyunJong
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이현종의 DOM 페이지</title>
+
+    <script>
+        window.onload = function(){ // html문서를 전부 읽은 후에 실행
+          var header = document.getElementById('header');
+          header.style.color = 'blue';
+          header.style.background = 'red';
+          header.innerHTML = '자바스크립트 DOM 연습 중';
+        };
+    </script>
+
+</head>
+<body>
+    <h1 id = "header">header</h1>
+</body>
+</html>
