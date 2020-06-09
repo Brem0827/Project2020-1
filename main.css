@@ -1,6 +1,6 @@
 /*
-    *File Name: index.html v0.10.3
-    *Update : 2020.05.12
+    *File Name: index.html v0.10.4
+    *Update : 2020.06.09
     *Author: LeehyunJong
 */
 /*
@@ -326,4 +326,18 @@ body{
     padding:15px;
     text-align:center;
     background-color:rgb(230,129,65);
+}
+
+/* article 폭 */
+.width-50{
+    width: 50%;
+    margin-left: 25%;
+}
+/* 스마트폰 */
+@media screen and (max-width: 767px){
+    /* 스타일 */
+}
+/* 태블릿 */
+@media screen and(min-width:769px) and (max-width:959px){
+    /* 스타일 */
 }

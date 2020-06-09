@@ -1,0 +1,33 @@
+<!--
+    *File Name: mediaQuery01.html v0.0.0
+    *Update : 2020.06.09
+    *Author: LeehyunJong
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이현종의 미디어 쿼리 페이지1번</title>
+    <style>
+    @media screen{
+        body{
+            background-color: red;
+        }
+    }
+    @media print{
+        body{
+            background-color: green;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Raft 분산 합의 알고리즘과 Python에서의 활용</h1><br />
+    <p>이 글은 Raft 분산 합의(consensus) 알고리즘을 설명하고, 라이브러리로 내장하는 것을 목적으로 이번에 새로 만든 파이썬 구현체를 소개합니다. 이 구현체는 파이썬으로 분산 프로그래밍을 하거나 높은 가용성이 필요한 경우 참고하면 유익할 것이라고 기대합니다.</p><br />
+    <p>분산 환경에서는 컴퓨팅에 참여하는 모든 노드가 현재 상태를 동일하게 유지하는 것이 중요합니다. 분산 환경에서 이런 합의를 위한 프로토콜로 가장 오래 사용되었던 것은 Paxos였으나, 스펙이 복잡하고 구현이 힘들다는 단점이 있었습니다(참고: 위키백과). 이에 대한 대안으로, 스펙상 몇 가지 제약을 걸어 구조를 단순화하여 나온 것이 Raft입니다(참고: 위키백과).</p><br />
+    <p>Raft는 실구현체를 만드는 것이 복잡하지 않아 언어별로 많은 구현체가 있으며 파이썬 구현체도 여러 개 있습니다. 그러나 이들은 대부분 단독으로 사용되는 경우를 상정하고 있어, 코디네이터 내장 프로그램을 만들려는 경우 확장이 여의치 않습니다. 파이썬 구현체 자체의 활용도도 높지는 않은데, 분산 코디네이터로는 ZooKeeper나 Consul 등이 이미 많이 쓰이고 있기 때문입니다.</p>
+</body>
+</html>
